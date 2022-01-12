@@ -3,10 +3,27 @@ body {
   font-family: 'Times New Roman', Times, serif;
   margin: 0%;
   color: whitesmoke;
+  text-align: center;
+}
+
+body .displayOne .overview {
+  text-align: left;
 }
 
 body .cardContainer {
   background-color: black;
+}
+
+body .cardContainer a {
+  text-decoration: none;
+}
+
+body .cardContainer button {
+  background-color: black;
+  border: whitesmoke solid;
+  border-width: thin;
+  color: whitesmoke;
+  margin-bottom: 1rem;
 }
 
 body .cardContainer ul {
@@ -21,7 +38,7 @@ body .cardContainer ul {
   list-style: none;
 }
 
-body .cardContainer ul .movieCard {
+body .cardContainer ul .Card {
   text-align: center;
   padding: 2%;
   border: solid whitesmoke;
@@ -34,26 +51,7 @@ body .cardContainer ul .movieCard {
   height: 450px;
 }
 
-body .cardContainer ul .movieCard .filler {
-  background-color: whitesmoke;
-  width: 250px;
-  height: 300px;
-}
-
-body .cardContainer ul .serieCard {
-  text-align: center;
-  border: solid whitesmoke;
-  padding: 2%;
-  margin: 1rem;
-  color: whitesmoke;
-  border-radius: 2%;
-  overflow: hidden;
-  background-color: #262625;
-  width: 250px;
-  height: 450px;
-}
-
-body .cardContainer ul .serieCard .filler {
+body .cardContainer ul .Card .filler {
   background-color: whitesmoke;
   width: 250px;
   height: 300px;

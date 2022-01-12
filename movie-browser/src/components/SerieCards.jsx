@@ -1,8 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function SerieCards({serie}) {
     return (
-        <div className='serieCard'>
+        <Link to={`/Serie/${serie.id}`}>
+        <div className='Card'>
             <div className='imgContainer'>
                 {serie.poster_path ? (
                     <img src={`https://image.tmdb.org/t/p/w200${serie.poster_path}`} alt='' />
@@ -24,5 +26,6 @@ export default function SerieCards({serie}) {
                 </div>
             </div>
         </div>
+        </Link>
     )
 }

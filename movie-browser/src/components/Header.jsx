@@ -12,7 +12,7 @@ export default class Header extends Component {
                     <div className='navContainer'>
                         <ul className="nav-list">
                             <li>
-                                <Link to="/Film">Film</Link>
+                                <Link to="/Movie">Film</Link>
                             </li>
                             <li>
                                 <Link to="/Serie">Serie</Link>

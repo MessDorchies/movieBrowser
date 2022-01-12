@@ -3,34 +3,33 @@ body{
     font-family: 'Times New Roman', Times, serif;
     margin: 0%;
     color: whitesmoke;
+    text-align: center;
+    .displayOne{
+        .overview{
+            text-align: left;
+        }
+    }
     .cardContainer{
+        a{
+            text-decoration: none;
+        }
         background-color: black;
+        button{
+            background-color: black;
+            border: whitesmoke solid;
+            border-width: thin;
+            color: whitesmoke;
+            margin-bottom: 1rem;
+        }
         ul{
             display: flex;
             justify-content: flex-start;
             flex-wrap: wrap;
             list-style: none;
-            .movieCard{
+            .Card{
                 text-align: center;
                 padding: 2%;
                 border: solid whitesmoke;
-                margin: 1rem;
-                color: whitesmoke;
-                border-radius: 2%;
-                overflow: hidden;
-                background-color: #262625;
-                width: 250px;
-                height: 450px;
-                .filler{
-                    background-color: whitesmoke;
-                    width: 250px;
-                    height: 300px;
-                }
-            }
-            .serieCard{
-                text-align: center;
-                border: solid whitesmoke;
-                padding: 2%;
                 margin: 1rem;
                 color: whitesmoke;
                 border-radius: 2%;

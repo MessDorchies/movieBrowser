@@ -1,8 +1,10 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
 
 export default function MovieCards({movie}) {
     return (
-        <div className='movieCard'>
+        <Link to={`/Movie/${movie.id}`}>
+        <div className='Card'>
             <div className='imgContainer'>
                 {movie.poster_path ? (
                     <img src={`https://image.tmdb.org/t/p/w200${movie.poster_path}`} alt='' />
@@ -24,5 +26,6 @@ export default function MovieCards({movie}) {
                 </div>
             </div>
         </div>
+        </Link>
     )
 }
