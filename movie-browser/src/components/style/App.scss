@@ -1,21 +1,53 @@
 body{
-    background-color: black;
+    background-color: #262625;
     font-family: 'Times New Roman', Times, serif;
     margin: 0%;
     color: whitesmoke;
     text-align: center;
     .displayOne{
+        width: 60%;
+        margin-left: 20%;
+        border: whitesmoke solid;
+        border-width: thin;
+        border-top: none;
+        h2{
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            margin: 0%;
+        }
+        .tags{
+            background-color: whitesmoke;
+            color: #262625;
+            margin-left: 1rem;
+            padding: 0.5%;
+        }
         .overview{
-            text-align: left;
+            border-top: whitesmoke solid;
+            border-width: thin;
+            width: 80%;
+            margin-left: 6%;
+            padding: 2rem;
         }
     }
     .cardContainer{
         a{
             text-decoration: none;
         }
-        background-color: black;
+        background-color: #262625;
+        .pageSelector{
+            width: 20%;
+            margin-top: 0%;
+            margin-left: 40%;
+            button{
+                margin-top: 5%;
+                border: whitesmoke solid;
+                border-width: thin;
+                font-size: 18px;
+                background-color: #262625;
+            }
+        }
         button{
-            background-color: black;
+            background-color: #262625;
             border: whitesmoke solid;
             border-width: thin;
             color: whitesmoke;
@@ -48,7 +80,7 @@ body{
     .searchContainer{
         width: 100%;
         text-align: center;
-        background-color: black;
+        background-color: #262625;
         .inputWrapper{
             width: 100%;
             input{

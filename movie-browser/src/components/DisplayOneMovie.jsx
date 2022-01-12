@@ -24,7 +24,12 @@ export default function DisplayOneMovie() {
     return (
         <div className='displayOne'>
             <h2>{movie.title}</h2>
-            <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt='' />
+            <img src={`https://image.tmdb.org/t/p/w400${movie.poster_path}`} alt='' />
+            <p>Date de sortie: {movie.release_date}</p>
+            <p>Genre : {movie.genres ? movie.genres.map(element => (
+                <span className='tags'> {element.name} </span>
+            )) : <span>/</span> }</p>
+            <p>Durée : {movie.runtime} min</p>
             <p className='overview'>
                 {movie.overview}
             </p>
