@@ -7,7 +7,7 @@ export default function MovieCards({movie}) {
         <div className='Card'>
             <div className='imgContainer'>
                 {movie.poster_path ? (
-                    <img src={`https://image.tmdb.org/t/p/w200${movie.poster_path}`} alt='' />
+                    <img src={`https://image.tmdb.org/t/p/w200${movie.poster_path}`} className='cardImg' alt='' />
                 ) : (
                     <div className='filler' />
                 )

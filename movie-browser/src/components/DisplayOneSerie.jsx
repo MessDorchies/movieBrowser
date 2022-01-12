@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
+import SimilarSerie from './SimilarSerie';
 
 export default function DisplayOneMovie() {
     const {id} = useParams();
@@ -21,6 +22,7 @@ export default function DisplayOneMovie() {
     useEffect(() => {
         findSerie();
     }, [])
+    
     return (
         <div className='displayOne'>
             <h2>{serie.name}</h2>
@@ -33,6 +35,10 @@ export default function DisplayOneMovie() {
             <p className='overview'>
                 {serie.overview}
             </p>
+            <div className='similarContainer'>
+                <h3> Film dans le même genre :</h3>
+                <div className='cardContainer'><SimilarSerie /></div> 
+            </div>
         </div>
     )
 }

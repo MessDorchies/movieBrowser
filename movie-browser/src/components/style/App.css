@@ -35,6 +35,16 @@ body .displayOne .overview {
   padding: 2rem;
 }
 
+body .similarContainer .cardContainer .Card {
+  width: 120px;
+  height: 240px;
+  font-size: 10px;
+}
+
+body .similarContainer .cardContainer .Card .cardImg {
+  width: 100px;
+}
+
 body .cardContainer {
   background-color: #262625;
 }
@@ -143,14 +153,14 @@ body .headerContainer .navContainer .nav-list li {
 
 body .headerContainer a {
   text-decoration: none;
-  color: black;
+  color: #262625;
 }
 
 body .headerContainer a:hover {
-  color: black;
+  color: #262625;
 }
 
 body .headerContainer a:visited {
-  color: black;
+  color: #262625;
 }
 /*# sourceMappingURL=App.css.map */

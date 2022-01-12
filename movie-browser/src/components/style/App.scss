@@ -29,6 +29,18 @@ body{
             padding: 2rem;
         }
     }
+    .similarContainer{
+        .cardContainer{
+            .Card{
+                width : 120px;
+                height: 240px;
+                font-size: 10px;
+                .cardImg{
+                    width: 100px;
+                }
+            }
+        }
+    }
     .cardContainer{
         a{
             text-decoration: none;
@@ -114,13 +126,13 @@ body{
         font-size: 1.5rem;
         a{
                 text-decoration: none;
-                color: black;
+                color: #262625;
             }
             a:hover{
-                color: black;
+                color: #262625;
             }
             a:visited{
-                color: black;
+                color: #262625;
             }
         
     }

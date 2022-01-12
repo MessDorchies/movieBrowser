@@ -43,7 +43,7 @@ export default function Home() {
         <div className='sampleContainer'>
             <div className='cardContainer'>
                 <div className='moviesSample'>
-                    <h3>Most popular movies : </h3>
+                    <h3>Films les plus populaires : </h3>
                         {moviesSample.length > 0 && (
                             <ul>
                             <li key={moviesSample[0].id}>
@@ -65,7 +65,7 @@ export default function Home() {
                         )}
                 </div>
                 <div className='seriesSample'>
-                    <h3>Most popular series : </h3>
+                    <h3>Series les plus populaires : </h3>
                     {moviesSample.length > 0 && (
                         <ul>
                             <li key={seriesSample[0].id}>
