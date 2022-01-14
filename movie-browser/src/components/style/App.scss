@@ -1,5 +1,5 @@
 body{
-    background-color: #262625;
+    background-color: #0d253f;
     font-family: 'Times New Roman', Times, serif;
     margin: 0%;
     color: whitesmoke;
@@ -45,7 +45,7 @@ body{
         a{
             text-decoration: none;
         }
-        background-color: #262625;
+        background-color: #0d253f;
         .pageSelector{
             width: 20%;
             margin-top: 0%;
@@ -81,6 +81,9 @@ body{
                 background-color: #262625;
                 width: 250px;
                 height: 450px;
+                .imgContainer{
+                    padding-top: 1rem;
+                }
                 .filler{
                     background-color: whitesmoke;
                     width: 250px;
@@ -92,7 +95,7 @@ body{
     .searchContainer{
         width: 100%;
         text-align: center;
-        background-color: #262625;
+        background-color: #0d253f;
         .inputWrapper{
             width: 100%;
             input{
