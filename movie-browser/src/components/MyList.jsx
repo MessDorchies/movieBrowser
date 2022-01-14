@@ -1,11 +1,10 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class MyList extends Component {
-    render() {
-        return (
-            <div>
-                My List page
-            </div>
-        )
-    }
+export default function MyList() {
+    return (
+        <div>
+            <h1>Comming soon</h1>
+        </div>
+    )
 }
+

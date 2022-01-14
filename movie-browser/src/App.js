@@ -5,6 +5,7 @@ import Movie from './components/Movie';
 import Serie from './components/Serie';
 import Search from './components/Search';
 import MyList from './components/MyList';
+import Footer from './components/Footer';
 import './components/style/App.css';
 import DisplayOneMovie from './components/DisplayOneMovie';
 import DisplayOneSerie from './components/DisplayOneSerie';
@@ -22,6 +23,7 @@ function App() {
         <Route path='/Movie/:id' element={<DisplayOneMovie />} />
         <Route path='/Serie/:id' element={<DisplayOneSerie />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
